@@ -23,18 +23,24 @@ const Welcome = () => {
         </div>
         
         <div className="w-full space-y-4 mt-10 animate-fade-up" style={{ animationDelay: "0.6s" }}>
-          <Link to="/auth/signin" className="block">
-            <button className="fitness-button-primary">
+
+        <div className="flex justify-center">
+          <Link to="/auth/signin">
+            <button className="w-60 py-3 text-white font-semibold rounded-full bg-gradient-to-r from-[#003396] to-[#000C24] shadow-md hover:opacity-80 transition">
               SIGN IN
             </button>
           </Link>
-          
-          <Link to="/auth/signup" className="block">
-            <button className="fitness-button-secondary">
+        </div>
+
+        <div className="flex justify-center">
+          <Link to="/auth/signup">
+            <button className="w-60 py-3 text-[#003396] font-semibold rounded-full bg-white shadow-md hover:bg-gray-200 transition">
               SIGN UP
             </button>
           </Link>
         </div>
+      </div>
+
         
         <div className="mt-6 animate-fade-up" style={{ animationDelay: "0.8s" }}>
           <p className="text-sm text-center mb-6">Continue with</p>

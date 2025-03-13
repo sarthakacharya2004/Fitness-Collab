@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import AuthLayout from "@/components/AuthLayout";
@@ -61,7 +60,11 @@ const SignIn = () => {
                 </button>
               </div>
 
-              <button type="submit" className="fitness-button-primary mt-6">
+              <button 
+                type="submit" 
+                className="w-full rounded-full py-3 px-6 font-medium text-white uppercase transition-all duration-300 
+                bg-gradient-to-r from-[#0a1d56] to-[#0F2A7A] hover:shadow-lg"
+              >
                 SIGN IN
               </button>
             </div>
