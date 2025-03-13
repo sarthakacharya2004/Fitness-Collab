@@ -3,7 +3,7 @@ import React from "react";
 
 interface AuthLayoutProps {
   children: React.ReactNode;
-  statusTime?: string;
+  // statusTime?: string;
 }
 
 export const AuthLayout: React.FC<AuthLayoutProps> = ({ 
